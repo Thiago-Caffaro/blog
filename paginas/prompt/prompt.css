@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Chivo Mono', monospace;
+}
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(186, 186, 186);
+}
+  
+.console {
+    font-family: 'windows_command_prompt', Fallback, sans-serif;
+    width: 900px;
+    height: 650px;
+    box-sizing: border-box;
+    margin: auto;
+}
+  
+.console header {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #555;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: #DDD;
+}
+  
+  .console .consolebody {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-sizing: border-box;
+    padding: 20px;
+    height: calc(100% - 40px);
+    background-color: #000;
+    color: #63de00;
+  }
+  
+  .console .consolebody p {
+    line-height: 1.5rem;
+  }

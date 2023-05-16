@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+/*Estilo geral*/
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: #fff;
+    text-decoration: none
+}
+p{
+    font-family: 'Caveat', cursive;
+}
+body{
+    background-image: url('../assets/wallpaper_repeat.jpg');
+    background-repeat: repeat;
+}
+/*Estilo de elementos*/
+.espacador{
+    height: 100px;
+}
+.separador{
+    border: 1px solid black;
+}
+.tiny{
+    height: 100px;
+    width: 100px;
+}
+button{
+    height: 80px;
+    width: 180px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgb(253, 238, 251);
+}
+/*Estilo do header e filhos*/
+header{
+    width: 100%;
+    background-color: rgb(41, 38, 38);
+    font-family: 'Comfortaa', cursive;
+}
+.gif{
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+}
+nav>ul{
+    list-style: none;
+    display: flex;
+}
+nav>ul>li{
+    letter-spacing: 3px;
+    margin-left: 30px;
+}
+
+nav>ul>li>a:hover{
+    color: rgb(250, 105, 218);
+}
+/*Estilo do corpo do contúdo do site*/
+main{
+    width: 1000px;
+    min-height: 100vh;
+    margin: auto;
+    background-color: aliceblue;
+}
+article{
+    position: relative;
+    padding: 20px;
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+}
+article>p{
+    padding: 10px;
+}
