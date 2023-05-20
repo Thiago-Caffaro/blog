@@ -15,6 +15,7 @@ p{
 body{
     background-image: url('../assets/wallpaper_repeat.jpg');
     background-repeat: repeat;
+    overflow-x: hidden;
 }
 /*Estilo de elementos*/
 .espacador{
